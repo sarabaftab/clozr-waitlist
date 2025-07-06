@@ -1,24 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="dark">
   <head>
     <meta charset="utf-8" />
-    <title>Waitlist HTML Demo - Home</title>
+    <title>Get CLOZR</title>
     <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="icon" href="/images/favicon.png" type="image/x-icon" />
     <link href="./style.css" rel="stylesheet" />
-    <script>
-      if (
-        localStorage.getItem("dark-mode") === "false" ||
-        !("dark-mode" in localStorage)
-      ) {
-        document.querySelector("html").classList.remove("dark");
-      } else {
-        document.querySelector("html").classList.add("dark");
-      }
-    </script>
   </head>
 
   <body
-    class="font-inter antialiased text-gray-800 dark:text-gray-200 tracking-tight"
+    class="font-inter antialiased dark:text-gray-200 tracking-tight"
     style="background-color: #000000"
   >
     <!-- Page wrapper -->
@@ -31,22 +22,22 @@
         aria-hidden="true"
       >
         <div
-          class="absolute w-[960px] h-24 top-12 animate-[swing_8s_ease-in-out_infinite] before:absolute before:inset-0 before:rounded-tl-full before:rounded-br-full before:bg-linear-to-b before:from-transparent before:to-transparent before:via-indigo-600 before:-rotate-[42deg]"
+          class="absolute w-[960px] h-24 top-12 animate-[swing_8s_ease-in-out_infinite] before:absolute before:inset-0 before:rounded-tl-full before:rounded-br-full before:bg-linear-to-b before:from-transparent before:to-transparent before:via-[#415A77] before:-rotate-[42deg]"
         ></div>
         <div
-          class="absolute w-[960px] h-24 -top-12 -left-28 animate-[swing_15s_-1s_ease-in-out_infinite] before:absolute before:inset-0 before:rounded-tl-full before:rounded-br-full before:bg-linear-to-b before:from-transparent before:to-transparent before:via-white dark:before:via-indigo-400 before:-rotate-[42deg]"
+          class="absolute w-[960px] h-24 -top-12 -left-28 animate-[swing_15s_-1s_ease-in-out_infinite] before:absolute before:inset-0 before:rounded-tl-full before:rounded-br-full before:bg-linear-to-b before:from-transparent before:to-transparent before:via-white dark:before:via-[#415A77] before:-rotate-[42deg]"
         ></div>
         <div
-          class="absolute w-[960px] h-16 top-36 left-80 animate-[swing_7s_-2s_ease-in-out_infinite] before:absolute before:inset-0 before:rounded-tl-full before:rounded-br-full before:bg-linear-to-b before:from-transparent before:to-transparent before:via-white dark:before:via-indigo-400 before:-rotate-[42deg]"
+          class="absolute w-[960px] h-16 top-36 left-80 animate-[swing_7s_-2s_ease-in-out_infinite] before:absolute before:inset-0 before:rounded-tl-full before:rounded-br-full before:bg-linear-to-b before:from-transparent before:to-transparent before:via-white dark:before:via-[#415A77] before:-rotate-[42deg]"
         ></div>
         <div
-          class="absolute w-[960px] h-64 top-[820px] left-44 animate-[swing_10s_ease-in-out_infinite] before:absolute before:inset-0 before:rounded-tl-full before:rounded-br-full before:bg-linear-to-b before:from-transparent before:to-transparent before:via-indigo-600/30 dark:before:via-indigo-400/30 before:-rotate-[42deg]"
+          class="absolute w-[960px] h-64 top-[820px] left-44 animate-[swing_10s_ease-in-out_infinite] before:absolute before:inset-0 before:rounded-tl-full before:rounded-br-full before:bg-linear-to-b before:from-transparent before:to-transparent before:via-[#415A77] dark:before:via-[#415A77] before:-rotate-[42deg]"
         ></div>
         <div
-          class="absolute w-[480px] h-12 top-[970px] left-[550px] animate-[swing_15s_-2s_ease-in-out_infinite] before:absolute before:inset-0 before:rounded-tl-full before:rounded-br-full before:bg-linear-to-b before:from-transparent before:to-transparent before:via-white dark:before:via-indigo-950 before:-rotate-[42deg]"
+          class="absolute w-[480px] h-12 top-[970px] left-[550px] animate-[swing_15s_-2s_ease-in-out_infinite] before:absolute before:inset-0 before:rounded-tl-full before:rounded-br-full before:bg-linear-to-b before:from-transparent before:to-transparent before:via-white dark:before:via-[#415A77]before:-rotate-[42deg]"
         ></div>
         <div
-          class="absolute w-[960px] h-16 top-[820px] left-24 animate-[swing_9s_-3s_ease-in-out_infinite] before:absolute before:inset-0 before:rounded-tl-full before:rounded-br-full before:bg-linear-to-b before:from-transparent before:to-transparent before:via-white dark:before:via-indigo-900 before:-rotate-[42deg]"
+          class="absolute w-[960px] h-16 top-[820px] left-24 animate-[swing_9s_-3s_ease-in-out_infinite] before:absolute before:inset-0 before:rounded-tl-full before:rounded-br-full before:bg-linear-to-b before:from-transparent before:to-transparent before:via-white dark:before:via-[#415A77] before:-rotate-[42deg]"
         ></div>
       </div>
 
@@ -57,17 +48,17 @@
       >
         <!-- Left side -->
         <div
-          class="before:absolute before:inset-y-0 before:left-0 before:border-l before:[border-image:linear-gradient(to_bottom,--theme(--color-indigo-300/.4),transparent)1] dark:before:[border-image:linear-gradient(to_bottom,--theme(--color-indigo-300/.16),transparent)1] before:shadow-[-1px_0_0_0_--theme(--color-white/.2)] dark:before:shadow-none after:absolute after:inset-y-0 after:left-20 after:border-l after:[border-image:linear-gradient(to_bottom,--theme(--color-indigo-300/.4),transparent)1] dark:after:[border-image:linear-gradient(to_bottom,--theme(--color-indigo-300/.16),transparent)1] after:shadow-[-1px_0_0_0_--theme(--color-white/.2)] dark:after:shadow-none"
+          class="before:absolute before:inset-y-0 before:left-0 before:border-l before:[border-image:linear-gradient(to_bottom,--theme(--color-indigo-300/.4),transparent)1] dark:before:[border-image:linear-gradient(to_bottom,--theme(--color-[#415A77]/.4),transparent)1] before:shadow-[-1px_0_0_0_--theme(--color-white/.2)] dark:before:shadow-none after:absolute after:inset-y-0 after:left-20 after:border-l after:[border-image:linear-gradient(to_bottom,--theme(--color-indigo-300/.4),transparent)1] dark:after:[border-image:linear-gradient(to_bottom,--theme(--color-indigo-300/.16),transparent)1] after:shadow-[-1px_0_0_0_--theme(--color-white/.2)] dark:after:shadow-none"
         ></div>
         <!-- Right side -->
         <div
-          class="before:absolute before:inset-y-0 before:right-0 before:border-l before:[border-image:linear-gradient(to_bottom,--theme(--color-indigo-300/.4),transparent)1] dark:before:[border-image:linear-gradient(to_bottom,--theme(--color-indigo-300/.16),transparent)1] before:shadow-[-1px_0_0_0_--theme(--color-white/.2)] dark:before:shadow-none after:absolute after:inset-y-0 after:right-20 after:border-l after:[border-image:linear-gradient(to_bottom,--theme(--color-indigo-300/.4),transparent)1] dark:after:[border-image:linear-gradient(to_bottom,--theme(--color-indigo-300/.16),transparent)1] after:shadow-[-1px_0_0_0_--theme(--color-white/.2)] dark:after:shadow-none"
+          class="before:absolute before:inset-y-0 before:right-0 before:border-l before:[border-image:linear-gradient(to_bottom,--theme(--color-indigo-300/.4),transparent)1] dark:before:[border-image:linear-gradient(to_bottom,--theme(--color-[#415A77]/.4),transparent)1] before:shadow-[-1px_0_0_0_--theme(--color-white/.2)] dark:before:shadow-none after:absolute after:inset-y-0 after:right-20 after:border-l after:[border-image:linear-gradient(to_bottom,--theme(--color-indigo-300/.4),transparent)1] dark:after:[border-image:linear-gradient(to_bottom,--theme(--color-[#415A77]/.16),transparent)1] after:shadow-[-1px_0_0_0_--theme(--color-white/.2)] dark:after:shadow-none"
         ></div>
       </div>
 
       <!-- Site header -->
       <header
-        class="absolute top-4 md:top-6 w-full z-30 pb-4 md:pb-6 border-b [border-image:linear-gradient(to_right,transparent,--theme(--color-indigo-300/.4),transparent)1] dark:[border-image:linear-gradient(to_right,transparent,--theme(--color-indigo-300/.16),transparent)1] shadow-[0_1px_0_0_--theme(--color-white/.2)] dark:shadow-none"
+        class="absolute top-4 md:top-6 w-full z-30 pb-4 md:pb-6 [border-image:linear-gradient(to_right,transparent,--theme(--color-[#415A77]/.4),transparent)1] dark:[border-image:linear-gradient(to_right,transparent,--theme(--color-[#415A77]/.4),transparent)1] shadow-[0_1px_0_0_--theme(--color-white/.2)] dark:shadow-none"
       >
         <div class="px-4 sm:px-6">
           <div class="max-w-3xl mx-auto">
@@ -76,7 +67,7 @@
             >
               <!-- Border with dots in corners -->
               <div
-                class="absolute -inset-1.5 bg-indigo-500/15 dark:bg-gray-800/50 rounded-xs -z-10 before:absolute before:inset-y-0 before:left-0 before:w-[10px] before:bg-[length:10px_10px] before:[background-position:top_center,bottom_center] before:bg-no-repeat before:[background-image:radial-gradient(circle_at_center,--theme(--color-indigo-500/.56)_1px,transparent_1px),radial-gradient(circle_at_center,--theme(--color-indigo-500/.56)_1px,transparent_1px)] dark:before:[background-image:radial-gradient(circle_at_center,--theme(--color-gray-600/.56)_1px,transparent_1px),radial-gradient(circle_at_center,--theme(--color-gray-600/.56)_1px,transparent_1px)] after:absolute after:inset-y-0 after:right-0 after:w-[10px] after:bg-[length:10px_10px] after:[background-position:top_center,bottom_center] after:bg-no-repeat after:[background-image:radial-gradient(circle_at_center,--theme(--color-indigo-500/.56)_1px,transparent_1px),radial-gradient(circle_at_center,--theme(--color-indigo-500/.56)_1px,transparent_1px)] dark:after:[background-image:radial-gradient(circle_at_center,--theme(--color-gray-600/.56)_1px,transparent_1px),radial-gradient(circle_at_center,--theme(--color-gray-600/.56)_1px,transparent_1px)]"
+                class="absolute -inset-1.5 bg-[#415A77]-500/15 dark:bg-gray-800/50 rounded-xs -z-10 before:absolute before:inset-y-0 before:left-0 before:w-[10px] before:bg-[length:10px_10px] before:[background-position:top_center,bottom_center] before:bg-no-repeat before:[background-image:radial-gradient(circle_at_center,--theme(--color-[#415A77]/.56)_1px,transparent_1px),radial-gradient(circle_at_center,--theme(--color-indigo-500/.56)_1px,transparent_1px)] dark:before:[background-image:radial-gradient(circle_at_center,--theme(--color-gray-600/.56)_1px,transparent_1px),radial-gradient(circle_at_center,--theme(--color-gray-600/.56)_1px,transparent_1px)] after:absolute after:inset-y-0 after:right-0 after:w-[10px] after:bg-[length:10px_10px] after:[background-position:top_center,bottom_center] after:bg-no-repeat after:[background-image:radial-gradient(circle_at_center,--theme(--color-indigo-500/.56)_1px,transparent_1px),radial-gradient(circle_at_center,--theme(--color-indigo-500/.56)_1px,transparent_1px)] dark:after:[background-image:radial-gradient(circle_at_center,--theme(--color-gray-600/.56)_1px,transparent_1px),radial-gradient(circle_at_center,--theme(--color-gray-600/.56)_1px,transparent_1px)]"
                 aria-hidden="true"
               ></div>
 
@@ -87,8 +78,8 @@
                   <img
                     src="images/logo-clozr-final.png"
                     alt="CLOZR logo"
-                    width="90"
-                    height="90"
+                    width="110"
+                    height="110"
                   />
                 </a>
               </div>
@@ -166,7 +157,7 @@
                     >
                       <!-- Border with dots in corners -->
                       <div
-                        class="absolute -inset-1.5 bg-indigo-500/15 dark:bg-gray-800/65 rounded-xs -z-10 before:absolute before:inset-y-0 before:left-0 before:w-[7px] before:bg-[length:7px_7px] before:[background-position:top_center,bottom_center] before:bg-no-repeat before:[background-image:radial-gradient(circle_at_center,--theme(--color-indigo-500/.56)_0.5px,transparent_0.5px),radial-gradient(circle_at_center,--theme(--color-indigo-500/.56)_0.5px,transparent_0.5px)] dark:before:[background-image:radial-gradient(circle_at_center,--theme(--color-gray-600/.56)_0.5px,transparent_0.5px),radial-gradient(circle_at_center,--theme(--color-gray-600/.56)_0.5px,transparent_0.5px)] after:absolute after:inset-y-0 after:right-0 after:w-[7px] after:bg-[length:7px_7px] after:[background-position:top_center,bottom_center] after:bg-no-repeat after:[background-image:radial-gradient(circle_at_center,--theme(--color-indigo-500/.56)_0.5px,transparent_0.5px),radial-gradient(circle_at_center,--theme(--color-indigo-500/.56)_0.5px,transparent_0.5px)] dark:after:[background-image:radial-gradient(circle_at_center,--theme(--color-gray-600/.56)_0.5px,transparent_0.5px),radial-gradient(circle_at_center,--theme(--color-gray-600/.56)_0.5px,transparent_0.5px)]"
+                        class="absolute -inset-1.5 bg-indigo-500/15 dark:bg-gray-800/65 rounded-xs -z-10 before:absolute before:inset-y-0 before:left-0 before:w-[7px] before:bg-[length:7px_7px] before:[background-position:top_center,bottom_center] before:bg-no-repeat before:[background-image:radial-gradient(circle_at_center,--theme(--color-violet-500/.56)_0.5px,transparent_0.5px),radial-gradient(circle_at_center,--theme(--color-violet-500/.56)_0.5px,transparent_0.5px)] dark:before:[background-image:radial-gradient(circle_at_center,--theme(--color-violet-500/.56)_0.5px,transparent_0.5px),radial-gradient(circle_at_center,--theme(--color-violet-500/.56)_0.5px,transparent_0.5px)] after:absolute after:inset-y-0 after:right-0 after:w-[7px] after:bg-[length:7px_7px] after:[background-position:top_center,bottom_center] after:bg-no-repeat after:[background-image:radial-gradient(circle_at_center,--theme(--color-violet-500/.56)_0.5px,transparent_0.5px),radial-gradient(circle_at_center,--theme(--color-violet-500/.56)_0.5px,transparent_0.5px)] dark:after:[background-image:radial-gradient(circle_at_center,--theme(--color-violet-500/.56)_0.5px,transparent_0.5px),radial-gradient(circle_at_center,--theme(--color-violet-500/.56)_0.5px,transparent_0.5px)]"
                         aria-hidden="true"
                       ></div>
                       <span
@@ -179,7 +170,7 @@
                   </div>
 
                   <h1
-                    class="font-inter-tight text-5xl md:text-6xl font-bold text-gray-800 dark:text-transparent dark:bg-clip-text dark:bg-linear-to-b dark:from-indigo-200 dark:to-gray-200 pb-4"
+                    class="font-inter-tight text-5xl md:text-6xl font-bold dark:text-transparent dark:bg-clip-text dark:bg-linear-to-b dark:from-indigo-200 dark:to-gray-200 pb-4"
                   >
                     The AI Brain for Modern Ecommerce
                   </h1>
@@ -231,9 +222,9 @@
                       </div>
                       <div>
                         <button
-                          class="btn text-gray-100 bg-gray-900 hover:bg-gray-800 dark:text-gray-800 dark:bg-gray-100 dark:hover:bg-white w-full"
+                          class="btn text-gray-100 bg-gray-100 hover:bg-gray-800 dark:text-gray-800 dark:bg-gray-200 dark:hover:bg-white w-full"
                         >
-                          Join The Waitlist
+                          Get CLOZR Waitlist
                         </button>
                       </div>
                     </div>
@@ -258,25 +249,18 @@
 
       <!-- Site footer -->
       <footer
-        class="border-t [border-image:linear-gradient(to_right,transparent,--theme(--color-indigo-300/.4),transparent)1] dark:[border-image:linear-gradient(to_right,transparent,--theme(--color-indigo-300/.16),transparent)1] shadow-[0_1px_0_0_--theme(--color-white/.2)] dark:shadow-none"
+        class="border-t [border-image:linear-gradient(to_right,transparent,--theme(--color-indigo-300/.4),transparent)1] shadow-[0_1px_0_0_--theme(--color-white/.2)]"
       >
         <div class="px-4 sm:px-6">
           <div class="max-w-3xl mx-auto">
             <div class="text-center py-8">
-              <p class="text-sm text-gray-700 dark:text-gray-400">
-                &copy; Waitlist - A more meaningful home for software. Built by
+              <p class="text-sm text-gray-200">
+                &copy; 2025 CLOZR · Built by
                 <a
-                  class="font-medium text-indigo-500 hover:underline"
-                  href="https://twitter.com/pacovitiello"
+                  class="font-medium text-indigo-500"
+                  href="https://www.linkedin.com/in/sarabaftab/"
                   target="_blank"
-                  >@pacovitiello</a
-                >
-                &
-                <a
-                  class="font-medium text-indigo-500 hover:underline"
-                  href="https://twitter.com/DavidePacilio"
-                  target="_blank"
-                  >@davidepacilio.</a
+                  >Sarab Aftab</a
                 >
               </p>
             </div>
